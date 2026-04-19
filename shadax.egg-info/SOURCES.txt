@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+shadax/__init__.py
+shadax/core.py
+shadax.egg-info/PKG-INFO
+shadax.egg-info/SOURCES.txt
+shadax.egg-info/dependency_links.txt
+shadax.egg-info/requires.txt
+shadax.egg-info/top_level.txt
