@@ -6,6 +6,17 @@ A production-ready Python implementation combining CNN + Transformer stages for 
 
 ## Installation
 
+### From PyPI (recommended)
+```bash
+pip install shadax
+```
+
+### From GitHub
+```bash
+pip install git+https://github.com/OmarAlghafri/SHADA-API-Core-Reference.git
+```
+
+### From local wheel
 ```bash
 pip install dist/*.whl
 ```
