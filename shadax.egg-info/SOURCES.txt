@@ -9,6 +9,7 @@ shadax/heads.py
 shadax/model.py
 shadax/modules.py
 shadax/network.py
+shadax/py.typed
 shadax/ssl.py
 shadax/training.py
 shadax.egg-info/PKG-INFO

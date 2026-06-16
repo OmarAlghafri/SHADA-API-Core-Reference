@@ -46,3 +46,6 @@ Repository = "https://github.com/OmarAlghafri/SHADA-API-Core-Reference"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["shadax*"]
+
+[tool.setuptools.package-data]
+shadax = ["py.typed"]
