@@ -1,18 +1,47 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "shadax"
-version = "0.1.0"
-description = "SHADA algorithm Python implementation"
+version = "0.2.0"
+description = "SHADA: a self-supervised hierarchical hybrid (CNN + Transformer) multi-modal model for vision and text"
 authors = [{ name = "Omar" }]
 readme = "README.md"
 requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = [
+    "deep-learning",
+    "pytorch",
+    "transformer",
+    "cnn",
+    "multimodal",
+    "self-supervised",
+    "computer-vision",
+    "nlp",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
 dependencies = [
     "torch>=2.0.0",
     "numpy>=1.21.0",
 ]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/OmarAlghafri/SHADA-API-Core-Reference"
+Repository = "https://github.com/OmarAlghafri/SHADA-API-Core-Reference"
 
 [tool.setuptools.packages.find]
 where = ["."]
