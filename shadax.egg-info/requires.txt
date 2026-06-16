@@ -1,2 +1,5 @@
 torch>=2.0.0
 numpy>=1.21.0
+
+[dev]
+pytest>=7.0
